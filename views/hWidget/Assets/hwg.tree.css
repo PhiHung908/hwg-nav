@@ -1,0 +1,8 @@
+li>div.currentHover {
+    background-color: #bcd0d78f !important;
+	cursor: pointer;
+}
+
+li>div.active {
+	background-color: lightblue !important;
+}

@@ -1,0 +1,72 @@
+.hwgNavigation .bi:before {
+	font-size: 1.25em;
+}
+
+.full-row-hover {
+  position: absolute;
+  height: 2.5rem;
+  background-color: transparent;
+  width: 160%;
+  left: 0;
+  margin-left: -55%;
+  margin-top: -0.5rem;
+  opacity: 0.09;
+}
+
+.hwgNavbar .full-row-hover {
+	width: 100%;
+	margin-left: -0.75em;
+}
+
+.full-row-hover:hover {
+  background-color: lightyellow;
+}
+
+.dropdown-item:hover {
+  background-color: unset;
+}
+
+.nav-item .active:not(.leaf) .full-row-hover, .nav-link.active:not(.leaf) .full-row-hover {
+  opacity: 0.15;
+  background-color: lightblue;
+}
+
+.dropdown-item.leaf .full-row-hover:hover, .nav-link.leaf .full-row-hover:hover {
+  background-color: blue; /*var(--bs-dropdown-link-active-bg);*/
+  opacity: 0.1;
+}
+
+
+.dropdown-item.active, .nav-link.active.leaf {
+	background-color: transparent;
+	color: var(--bs-dropdown-link-active-color);
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-style: dotted;
+	text-underline-position: under;
+}
+
+.hwg-li-drop-hint-before {
+	border-top: 2px solid blue;
+	cursor:none;
+}
+.hwg-li-drop-hint {
+	border-bottom: 2px solid blue;
+}
+.hwg-li-drop-hint * {
+	cursor: n-resize;
+}
+.hwg-li-drag-hint {
+	border: 1px dashed #07f7be;
+}
+.hwg-li-drop-active {
+	border-right: 4px solid #07f7be;
+}
+
+.hwg-drag-cloned * {
+	cursor: none;
+}
+.hwg-drag-cloned .hwg-drop-indicator {
+	display: none !important;
+}

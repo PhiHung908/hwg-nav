@@ -1,0 +1,28 @@
+{
+    "name": "yii-utils/hwg-nav",
+    "description": "Widget navigation Bar/Menu dùng cho Yii hỗ cho việc thiết kế giao diện",
+	"keywords": ["yii","yii-nav","yii-navmenu","yii-navbar","yii-utils","yii-hwg"],
+	"homepage": "https://github.com/PhiHung908",
+    "support": {
+        "issues": "https://github.com/PhiHung908/hwg-nav/issues",
+        "source": "https://github.com/PhiHung908/hwg-nav.git"
+    },
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Phi Hùng",
+            "email": "vmkeyb908@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },
+	"autoload": {
+        "psr-4": {
+            "Hwg\\": "",
+			"@Hwg\\": ""
+        }
+    }
+}
